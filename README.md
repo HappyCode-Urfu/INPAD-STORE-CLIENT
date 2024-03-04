@@ -22,7 +22,7 @@
         ├── assets/
         ├  ├── fonts/ - шрифты
         ├  ├── icons/ - иконки svg
-        ├  └── images/ - rfhnbyrb png 
+        ├  └── images/ - картинки png 
         ├── enums/ - переиспользуемые enum
         ├── navigation/ - навигация
         ├── screens/ - страницы
