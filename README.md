@@ -7,6 +7,34 @@
 - Recoil
 - Vite
 
+## Структура проекта
+```
+.
+└── .../
+    ├── .env.production
+    ├── .env.development
+    ├── dist/ - Сборка проекта
+    ├── public/ - Каталог, в котором лежат файлы, изменяемые и перемещаемые бандлером
+    └── src/ - Корневая папка с кодом
+        ├── assets/
+        ├  ├── fonts/ - шрифты
+        ├  ├── icons/ - иконки svg
+        ├  └── images/ - rfhnbyrb png 
+        ├── enums/ - переиспользуемые enum
+        ├── navigation/ - навигация
+        ├── screens/ - страницы
+        ├── services/ - сервисы (HTTP, EventBus)
+        ├── shared/ - Переиспользуемые компоненты, хуки
+        ├── store/ - state
+        ├── styles/ - глобальные стили
+        ├── types/ - глобальные типы
+        ├── utils/ - утилиты
+        ├── App.tsx
+        ├── config.ts - конфиг
+        ├── vite-env.d.ts
+        └── main.tsx
+```
+
 
 ## Команды
 
