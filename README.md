@@ -72,7 +72,7 @@ import.meta.env.[название]
 
 Открытыми являются переменные, начинающиеся с VITE_
 
-например:
+Например:
 ```
 PASSWORD=qwerty
 VITE_SOME_KEY=some-public-value
