@@ -1,16 +1,16 @@
-# О сайте
+# О сайте <img align="center" src="https://c.tenor.com/fYg91qBpDdgAAAAi/bongo-cat-transparent.gif"  width="30">
 Веб-сервис с расчетом нагрузки сети на квартал / дом / секцию
 
-## Стэк
-- React
-- SCSS
-- TS
-- Axios
-- React Router Dom
-- Recoil
-- Vite
+## Стек Frontend приложения
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+- ![SCSS](https://img.shields.io/badge/SCSS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+- ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+- ![Axios](https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white)
+- ![React Router Dom](https://img.shields.io/badge/React%20Router-CA4245.svg?style=for-the-badge&logo=React-Router&logoColor=white)
+- ![Recoil](https://img.shields.io/badge/Recoil-3578E5.svg?style=for-the-badge&logo=Recoil&logoColor=white)
+- ![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=Vite&logoColor=white)
 
-## Структура проекта
+## Структура проекта <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="20">
 ```
 .
 └── .../
@@ -39,7 +39,7 @@
 ```
 
 
-## Команды
+## Команды <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width ="20">
 
 ```
 # Установить зависимости
@@ -64,7 +64,7 @@ yarn preview
 yarn format
 ```
 
-## Импорт для .env
+## Импорт для .env.[режим]
 
 ```
 import.meta.env.[название]
@@ -80,17 +80,12 @@ VITE_SOME_KEY=some-public-value
 
 В данном случае в клиентский код попадет только VITE_SOME_KEY
 
-### .env.[среда]
-```bazaar
-#server
-VITE_API_URL=*url
-```
 
-### Environment variables
+## Environment variables
 
 _Примечание: Переменные, не имеющие значений по умолчанию, являются обязательными_
 
-| Name         | Default value         | Description                                                              |
-|--------------|-----------------------|--------------------------------------------------------------------------|
-| NODE_ENV     | development           |                                                                          |
-| VITE_API_URL | http://localhost:5000 | Хост, на котором развернута платформа. Например, `http://localhost:5000` |
+| Name         | Default value          | Description                                                              |
+|--------------|------------------------|--------------------------------------------------------------------------|
+| NODE_ENV     | development            |                                                                          |
+| VITE_API_URL | http://localhost:5000  | Хост, на котором развернута платформа. Например, `http://localhost:5000` |
