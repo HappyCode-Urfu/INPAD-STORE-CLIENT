@@ -1,3 +1,6 @@
+# О сайте
+Веб-сервис с расчетом нагрузки сети на квартал / дом / секцию
+
 ## Стэк
 - React
 - SCSS
@@ -80,5 +83,14 @@ VITE_SOME_KEY=some-public-value
 ### .env.[среда]
 ```bazaar
 #server
-VITE_API_URL=http://localhost:5000
+VITE_API_URL=*url
 ```
+
+### Environment variables
+
+_Примечание: Переменные, не имеющие значений по умолчанию, являются обязательными_
+
+| Name         | Default value         | Description                                                              |
+|--------------|-----------------------|--------------------------------------------------------------------------|
+| NODE_ENV     | development           |                                                                          |
+| VITE_API_URL | http://localhost:5000 | Хост, на котором развернута платформа. Например, `http://localhost:5000` |
