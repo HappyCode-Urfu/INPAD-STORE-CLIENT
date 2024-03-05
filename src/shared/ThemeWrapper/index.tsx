@@ -1,6 +1,6 @@
-import { ThemeContext } from 'utils/ThemeContext/themeContext.tsx'
-import { Theme, ThemeContextType } from 'utils/ThemeContext/theme.types.ts'
 import { ChangeEvent, FC, ReactNode, useContext } from 'react'
+import { Theme, ThemeContextType } from 'utils/ThemeContext/theme.types.ts'
+import { ThemeContext } from 'utils/ThemeContext/themeContext.tsx'
 
 const ThemeWrapper: FC<{ children: ReactNode }> = ({ children }) => {
   const { theme, changeTheme } = useContext(ThemeContext) as ThemeContextType

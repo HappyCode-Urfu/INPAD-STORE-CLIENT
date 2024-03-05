@@ -1,8 +1,9 @@
-import { IAuthValues, IUser } from 'screens/Auth/auth.types.ts'
 import axios from 'axios'
-import config from '../../config.ts'
-import { handleHttpError, handleHttpResponse } from 'services/http'
 import { IAuth, IAuthState } from 'screens/Auth/auth.atom.ts'
+import { IAuthValues, IUser } from 'screens/Auth/auth.types.ts'
+import { handleHttpError, handleHttpResponse } from 'services/http'
+
+import config from '../../config.ts'
 
 const login = (data: IAuthValues) => {
   return axios

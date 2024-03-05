@@ -1,5 +1,5 @@
-import { IUser } from 'screens/Auth/auth.types.ts'
 import { atom } from 'recoil'
+import { IUser } from 'screens/Auth/auth.types.ts'
 
 export interface IAuth {
   accessToken: string

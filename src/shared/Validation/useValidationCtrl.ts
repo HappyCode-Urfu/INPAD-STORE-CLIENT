@@ -1,5 +1,5 @@
-import { IValidationFunctionResponse } from 'shared/Validation/validation.types.ts'
 import { useState } from 'react'
+import { IValidationFunctionResponse } from 'shared/Validation/validation.types.ts'
 import objectUtils from 'utils/object.utils.ts'
 
 const useValidationCtrl = <T extends Record<string, any>>(

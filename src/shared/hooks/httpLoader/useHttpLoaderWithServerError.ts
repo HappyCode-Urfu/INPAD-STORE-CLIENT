@@ -1,7 +1,7 @@
-import { useState } from 'react'
-import useHttpLoader from 'shared/hooks/httpLoader/useHttpLoader.ts'
-import { HTTPResponse } from 'services/http/http.types.ts'
 import { AxiosError } from 'axios'
+import { useState } from 'react'
+import { HTTPResponse } from 'services/http/http.types.ts'
+import useHttpLoader from 'shared/hooks/httpLoader/useHttpLoader.ts'
 
 const useHttpLoaderWithServerError = () => {
   const [serverError, setServerError] = useState('')

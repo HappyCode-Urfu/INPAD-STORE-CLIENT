@@ -16,16 +16,16 @@
     "types": ["vite-plugin-svgr/client", "vite/client"],
     "baseUrl": "src",
     "paths": {
-      "assets/*": ["assets/*"],
-      "enums/*": ["enums/*"],
-      "navigation/*": ["navigation/*"],
-      "store/*": ["store/*"],
-      "screens/*": ["screens/*"],
-      "services/*": ["services/*"],
-      "shared/*": ["shared/*"],
-      "styles/*": ["styles/*"],
-      "types/*": ["types/*"],
-      "utils/*": ["utils/*"]
+      "@assets": ["./assets/"],
+      "@enums": ["./enums/"],
+      "@navigation": ["./navigation"],
+      "@store": ["./store"],
+      "@screens": ["./screens"],
+      "@services": ["./services"],
+      "@shared": ["./shared"],
+      "@styles": ["./styles"],
+      "@types": ["./types"],
+      "@utils": ["./utils"]
     },
 
     /* Linting */

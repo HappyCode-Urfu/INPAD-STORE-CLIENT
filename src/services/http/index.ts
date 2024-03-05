@@ -1,10 +1,11 @@
 import axios, { AxiosError, AxiosResponse } from 'axios'
-import config from '../../config.ts'
 import { Dispatch, MutableRefObject, SetStateAction } from 'react'
+import authApi from 'screens/Auth/auth.api.ts'
 import { IAuthState } from 'screens/Auth/auth.atom.ts'
 import eventBus from 'services/eventBus'
 import { IHTTPErrorResponse, IHTTPSuccessResponse } from 'services/http/http.types.ts'
-import authApi from 'screens/Auth/auth.api.ts'
+
+import config from '../../config.ts'
 
 const http = axios.create({
   baseURL: config.API_URL,

@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import { AxiosError } from 'axios'
+import { useState } from 'react'
 
 const useHttpLoader = (defaultState = false) => {
   const [loading, setLoading] = useState(defaultState)

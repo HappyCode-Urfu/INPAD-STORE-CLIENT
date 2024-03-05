@@ -1,5 +1,6 @@
-import { IValidationFunctionResponse } from 'shared/Validation/validation.types.ts'
 import { CSSProperties, PropsWithChildren } from 'react'
+import { IValidationFunctionResponse } from 'shared/Validation/validation.types.ts'
+
 import ValidationContext from './ValidationContext'
 
 interface IProps {

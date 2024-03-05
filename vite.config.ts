@@ -1,6 +1,8 @@
+import * as path from 'path'
 import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react-swc'
 import svgr from 'vite-plugin-svgr'
+
+import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -12,16 +14,16 @@ export default defineConfig({
   },
   resolve: {
     alias: {
-      assets: '/src/assets',
-      enums: '/src/enums',
-      navigation: '/src/navigation',
-      store: '/src/store',
-      screens: '/src/screens',
-      services: '/src/services',
-      shared: '/src/shared',
-      styles: '/src/styles',
-      types: '/src/types',
-      utils: '/src/utils',
+      '@assets': path.resolve(__dirname, './src/assets'),
+      '@enums': path.resolve(__dirname, './src/enums'),
+      '@navigation': path.resolve(__dirname, '/.src/navigation'),
+      '@store': path.resolve(__dirname, './src/store'),
+      '@screens': path.resolve(__dirname, './src/screens'),
+      '@services': path.resolve(__dirname, './src/services'),
+      '@shared': path.resolve(__dirname, './src/shared'),
+      '@styles': path.resolve(__dirname, './src/styles'),
+      '@types': path.resolve(__dirname, './src/types'),
+      '@utils': path.resolve(__dirname, './src/utils'),
     },
   },
 })

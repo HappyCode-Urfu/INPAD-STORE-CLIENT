@@ -1,9 +1,7 @@
-import './styles/sanitize.scss'
-import './styles/variables.scss'
-import './styles/text.scss'
+import '@styles'
 
 const App = () => {
-  return <div></div>
+  return <div>123</div>
 }
 
 export default App
