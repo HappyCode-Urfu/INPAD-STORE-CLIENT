@@ -1,6 +1,6 @@
-import '@styles'
+import { Table } from '@shared'
 
-import Table, { Column } from './shared/Table'
+import '@styles'
 
 const data = [
   { id: '1', name: 'Alice', age: 30 },
@@ -14,12 +14,10 @@ const columns: Column<(typeof data)[0]>[] = [
   { title: 'Age', dataIndex: 'age' },
 ]
 
-const App = () => {
+export const App = () => {
   return (
     <div>
       <Table data={data} columns={columns} />
     </div>
   )
 }
-
-export default App
